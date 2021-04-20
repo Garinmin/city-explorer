@@ -25,9 +25,7 @@ class App extends Component {
 
     this.setState({
       location,
-      // same as location:location
     })
-
   }
 
   render() {
