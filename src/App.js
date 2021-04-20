@@ -32,8 +32,8 @@ class App extends Component {
 
   render() {
 
-/*     const img_url = `https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_CITY_KEY}&center=${this.state.location.lat},${this.state.location.lon}&size=${window.innerWidth}x300&format=jpg&zoom=12`;
- */
+    const img_url = `https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_CITY_KEY}&center=${this.state.location.lat},${this.state.location.lon}&size=jpg&zoom=1-18`;
+
 
     return (
       <>
@@ -44,9 +44,9 @@ class App extends Component {
         {this.state.location.place_id &&
           <>
             <h2>The city is: {this.state.location.display_name}</h2>
-              <h3>The latitude is: {this.state.location.lat}</h3>
-              <h3>The longitude is: {this.state.location.lon}</h3>
-            
+            <h3>The latitude is: {this.state.location.lat}</h3>
+            <h3>The longitude is: {this.state.location.lon}</h3>
+            <img src={img_url} alt="location" />
           </>
         }
       </>
