@@ -12,6 +12,8 @@ The user need to install npm, bootstrap, axios.
 ## Architecture
 In my app I use "Bootstrap"
 
+{"isDeskleClipboardCopying":true,"source":"5fffaf07d7a97401d37f8412","items":[{"id":"607f40012256531e37358a08","type":"area","metrics":{"position":"absolute","scale":1,"rotation":0,"w":1502,"h":1101,"saveRatio":false,"x":-15775,"y":-22270},"z":-3,"tmpClientSideID":"37641f3oh4log2"}],"isCopying":true,"geometry":{"w":1502,"h":1101,"x":{"start":-15775,"end":-14273,"center":-15024},"y":{"start":-22270,"end":-21169,"center":-21719.5},"scale":1}}
+
 ## Change Log
 04.19.2021 9:29pm Created an app without styles.
 
